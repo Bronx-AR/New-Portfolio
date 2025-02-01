@@ -8,7 +8,7 @@ const About = () => {
             <div className="container-fluid">
                 <div className="row g-4">
                     <div className="col-12 col-lg-9">
-                        <div data-hover-img={aboutData.mainData.heroAvatar.src}>
+                        <div data-hover-img={aboutData.mainData.src}>
                             <h1 className="display-2 fw-medium mb-0">{aboutData.mainData.title}</h1>
                             <h1 className="display-3 fw-normal mb-0 text-black-02 fst-italic">{aboutData.mainData.biography}</h1>
                         </div>

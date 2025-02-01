@@ -1,9 +1,6 @@
-import HeroAvatar from '@/public/images/avatar.jpg';
-
 export const aboutData = {
     mainData: {
-        heroAvatar: HeroAvatar,
-        title: "Hi! I'm Arnaud Quatrevaux.",
+        title: "Hi! I'm Arnaud.",
         biography: "A profesional Front-End developer based in Toulouse.",
         hoursOfExperience: "26,000",
         projectsDone: "10",
