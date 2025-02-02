@@ -14,18 +14,6 @@ const About = () => {
                         </div>
                         <Link className="button button-lg button-outline mt-4" href={aboutData.mainData.button.url}>{aboutData.mainData.button.title}</Link>
                     </div>
-                    <div className="col-12 col-xl-3 text-xl-end">
-                        <div className="row g-4">
-                            <div className="col-12 col-sm-4 col-xl-12">
-                                <h2 className="display-6 fw-medium mb-0">{aboutData.mainData.hoursOfExperience}+</h2>
-                                <span>Hours of Experience</span>
-                            </div>
-                            <div className="col-12 col-sm-4 col-xl-12">
-                                <h2 className="display-6 fw-medium mb-0">{aboutData.mainData.projectsDone}+</h2>
-                                <span>Projects Done</span>
-                            </div>
-                        </div> {/* end row(inner) */}
-                    </div>
                 </div> {/* end row */}
             </div> {/* end container-fluid */}
         </div>

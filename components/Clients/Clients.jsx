@@ -60,14 +60,6 @@ const Clients = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-
-                    {/* Slider Navigations */}
-                    <button className="clients-prev" onClick={() => sliderRef.current?.slidePrev()} aria-label="Prev Slide">
-                        <i className="bi bi-arrow-left-short"></i>
-                    </button>
-                    <button className="clients-next" onClick={() => sliderRef.current?.slideNext()} aria-label="Next Slide">
-                        <i className="bi bi-arrow-right-short"></i>
-                    </button>
                 </div>
             </div>
         </div>

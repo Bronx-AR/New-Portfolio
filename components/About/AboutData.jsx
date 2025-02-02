@@ -2,8 +2,6 @@ export const aboutData = {
     mainData: {
         title: "Hi! I'm Arnaud.",
         biography: "A profesional Front-End developer based in Toulouse.",
-        hoursOfExperience: "26,000",
-        projectsDone: "10",
         button: {
             title: 'Let\'s Talk',
             url: '/contact',
