@@ -1,12 +1,4 @@
 node_modules/next/next-swc-fallback/@next/swc-darwin-arm64/next-swc.darwin-arm64.node
 .DS_Store
-/node_modules
-/next
-.DS_Store
-.next/cache/webpack/client-development/2.pack.gz
-.next/cache/webpack/client-development/6.pack.gz
-.next/cache/webpack/server-development/6.pack.gz
-.next/cache/webpack/server-development/7.pack.gz
-.next/static/webpack/33c49d3d8fca1f5e.webpack.hot-update.json
-.next/static/webpack/webpack.33c49d3d8fca1f5e.hot-update.js
-.next/cache/webpack/client-development/2.pack.gz
+node_modules/
+.next/
