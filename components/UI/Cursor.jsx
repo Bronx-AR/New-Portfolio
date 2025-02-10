@@ -4,11 +4,6 @@ import { useRouter } from 'next/router';
 const Cursor = () => {
     const router = useRouter();
 
-    const handleHoverItemMouseOver = (hoverItem) => {
-        const cursorInner = document.querySelector(".cursor-inner");
-        cursorInner.innerHTML = "<div class='mouse-caption'><h2>" + hoverItem.getAttribute('data-hover-caption') + "</h2></div>";
-        cursorInner.classList.add("visible");
-    };
 
     const handleHoverItemMouseOut = () => {
         const cursorInner = document.querySelector(".cursor-inner");
@@ -44,8 +39,6 @@ const Cursor = () => {
     useEffect(() => {
         const handleRouteChange = () => {
             document.querySelectorAll("div[data-hover-caption]").forEach(hoverItem => {
-                hoverItem.addEventListener("mouseover", () => handleHoverItemMouseOver(hoverItem));
-                hoverItem.addEventListener("mouseout", handleHoverItemMouseOut);
             });
 
             document.querySelectorAll("[data-hover-img]").forEach(hoverImg => {
