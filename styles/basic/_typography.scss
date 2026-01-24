@@ -1,0 +1,125 @@
+//
+// Typography //
+//
+body {
+	color: $primary;
+	font-family: $font-family-primary;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: black;
+	font-family: $font-family-tertiary;
+	font-weight: 600;
+	@include breakpoint-less(md) {
+		margin-bottom: 6px;
+	}
+}
+
+.progress-bar-wrap {
+	height: 6px;
+	background: #edf2f2;
+	border-radius: 6px;
+	overflow: inherit;
+}
+
+.progress-line {
+	height: 100%;
+	border-radius: inherit;
+}
+
+.progress-bg-1 {
+	background-color: #C76494;
+}
+
+.progress-bg-2 {
+  background-color: #EFD81D;
+}
+
+.progress-bg-3 {
+  background-color: #7094B7;
+}
+
+.progress-bg-4 {
+  background-color: #08749F;
+}
+
+.progress-bg-5 {
+  background-color: #000;
+}
+
+.progress-bg-6 {
+  background-color: #854AC7;
+}
+
+.progress-bg-7 {
+  background-color: #6A9500;
+}
+
+.progress-bg-8 {
+  background-color: #55AD47;
+}
+
+p {
+	margin: 0;
+	line-height: 1.74;
+	@include breakpoint-less(md) {
+		line-height: 1.6;
+	}
+}
+.uppercase {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.font-small {
+	font-size: 0.9em;
+	line-height: 1.7;
+	@include breakpoint-less(md) {
+		font-size: 0.9em;
+		line-height: 1.7;
+	}
+}
+.font-large {
+	font-size: 1.063em;
+	line-height: 1.6;
+	@include breakpoint-less(md) {
+		font-size: 1.063em;
+	}
+}
+
+.sm-heading {
+	font-family: $font-family-secondary;
+	font-size: 0.9em;
+	font-weight: 500;
+	line-height: 1.7;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+//
+// Font Icons //
+//
+i {
+	display: inline-block;
+	color: black;
+}
+.icon-4xl {
+	i { font-size: 2.4em; }
+}
+.icon-3xl {
+	i { font-size: 2.13em; }
+}
+.icon-2xl {
+	i { font-size: 1.86em; }
+}
+.icon-xl {
+	i { font-size: 1.6em; }
+}
+.icon-lg {
+	i { font-size: 1.33em; }
+}
+.icon-sm {
+	i { font-size: 0.9em; }
+}
